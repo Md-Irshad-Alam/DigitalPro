@@ -90,10 +90,18 @@ li{
   outline: none;
   border: none;
 }
-@media screen and (min-width: 370px) and (max-width:720px){
+@media screen and (min-width: 300px) and (max-width:720px){
+  .icon_body{
+    display: none;
+  }
+  .tags{
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .nav_body{
-    width: 90%;
-    column-gap: 1px;
+    width: 92vw;
+    column-gap: 0rem;
   }
   .content_body li{
     display: none;
@@ -103,6 +111,28 @@ li{
     width: 10%;
     margin-right: 75px;
   }
+  .auth_body{
+    display: flex;
+    column-gap: 10px;
+  }
+  .img_body img{
+    width: 4rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width:1420px){
+  .nav_body{
+    width: 90%;
+    column-gap: 1px;
+ 
+    overflow: hidden;
+  }
+ 
+    .content_body{
+      width: 80%;
+      flex-wrap: wrap;
+      overflow: hidden;
+    
+    }
   .icon_body{
     display: none;
   }
@@ -145,7 +175,7 @@ li{
   font-size: 0.9rem;
 }
 
-@media screen and (min-width: 370px) and (max-width:720px){
+@media screen and (min-width: 300px) and (max-width:1420px){
   .body2-main{
    
    }
@@ -191,7 +221,8 @@ li{
   margin-bottom: 10px;
 }
 #title p{
-  color: #785991;
+  color: #A9A9A9;
+  letter-spacing: 1px;
   display: block;
   height: fit-content;
   font-size: 24px;
@@ -220,7 +251,7 @@ li{
   justify-content: space-between;
 }
 
-@media screen and (min-width: 370px) and (max-width:720px){
+@media screen and (min-width: 300px) and (max-width:1420px){
   .body-main{
     width: 100%;
     height: 90vh;
@@ -299,7 +330,7 @@ height: 66vh; */
   font-family: ui-monospace;
 }
 
-@media screen and (min-width: 370px) and (max-width:720px){
+@media screen and (min-width: 300px) and (max-width:1420px){
   .card-main{
     margin-top: -97px;
     margin-bottom: 17px
@@ -391,7 +422,7 @@ height: 66vh; */
   font-weight: 500;
 }
 
-@media screen and (min-width: 370px) and (max-width:720px){
+@media screen and (min-width: 300px) and (max-width:1420px){
   .card2-main{
     
     margin-bottom: 28px;
@@ -485,7 +516,7 @@ row-gap: 10px;
 
 }
 
-@media screen and (min-width: 370px) and (max-width:720px){
+@media screen and (min-width: 300px) and (max-width:1420px){
   .card3-main{
     margin-bottom: 25px;
     margin-top: -218px;
@@ -580,23 +611,24 @@ row-gap: 10px;
   
 }
 .user-icon img{
-  width: 30px;
+  width: 60px;
   margin: 0;
+  object-fit: cover;
 }
 .star img{
- width: 12px;
+ width: 15px;
 
 }
 .user_name{
   margin:0;
   color: white;
-  font-size: 12px;
+  font-size: 18px;
   text-align: left;
 }
 
 #title3 h3{
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
  
 }
 .know_back{
@@ -605,10 +637,10 @@ row-gap: 10px;
   border: none;
   outline: none;
   font-size: 17px;
-  padding: 4px 13px 4px 13px;
+  padding: 7px 15px 7px 15px;
 }
 
-@media screen and (min-width: 370px) and (max-width:720px){
+@media screen and (min-width: 300px) and (max-width:1420px){
   .body3-main{
     width: 100%;
     height: 90vh;
@@ -616,6 +648,9 @@ row-gap: 10px;
    .body3_content{
     height: 72%;
     background-size: cover;
+   }
+   #title3 h3{
+    font-size: 1rem;
    }
  
    #user-img{
@@ -701,7 +736,7 @@ row-gap: 10px;
     width: 107px;
     object-fit: cover;
 }
-@media screen and (min-width: 370px) and (max-width:720px){
+@media screen and (min-width: 300px) and (max-width:1420px){
   .fotter{
     margin-top: -97px;
 
